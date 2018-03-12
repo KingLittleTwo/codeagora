@@ -11,6 +11,10 @@
   width: 300px;
 }
 
+.el-container{
+  margin: 0 50px;
+}
+
 .box-margin {
   margin: 0 10px;
 }
