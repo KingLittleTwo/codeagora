@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import apply from "./Apply"
+import apply from './Apply'
 export default {
   components: {
     vapply: apply
@@ -40,11 +40,6 @@ export default {
         content: '范德萨发你上开机女方家的快感怒放的是哪看见处女就科学城那几款是女方家看到过hiu',
         zan_ids: [1, 2, 3, 5]
       }
-    }
-  },
-  methods: {
-    repply: function (obj) {
-      obj.parent.siblings.find('.apply-form').style.display = 'block'
     }
   }
 }

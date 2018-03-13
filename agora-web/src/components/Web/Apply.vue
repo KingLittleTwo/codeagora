@@ -74,6 +74,12 @@ export default {
         ]
       }
     }
+  },
+  methods: {
+    repply: function (obj) {
+      console.log(obj)
+      obj.parent.siblings.find('.apply-form').style.display = 'block'
+    }
   }
 }
 </script>
